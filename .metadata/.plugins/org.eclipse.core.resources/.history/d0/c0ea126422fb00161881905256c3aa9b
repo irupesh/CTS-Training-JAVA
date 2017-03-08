@@ -1,0 +1,24 @@
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+public class SkillDAO {
+
+	public Skill getSkillById(int id) throws ClassNotFoundException, SQLException {
+    // fill the code
+		Connection con  = DBConnection.getConnection();
+		Skill skill = null;
+        Statement stmt=con.createStatement(); 
+        ResultSet rs=stmt.executeQuery("select * from skill where id ="+id);  
+        while(rs.next()){  
+      	   skill = new Skill(rs.getInt(1),rs.getString(2));  
+        }
+        con.close();
+        return skill;
+	}
+
+
+}

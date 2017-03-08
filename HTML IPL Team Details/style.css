@@ -1,0 +1,15 @@
+.high {
+	background-color: #FFB6C1;
+}
+
+.average {
+	background-color: #FFFF00;
+}
+
+.low {
+	background-color: #98FB98;
+}
+
+tr{
+	height:50px;
+}

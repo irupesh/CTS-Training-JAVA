@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+  <h2>Match Summary</h2>
+  
+   <div id="error"></div>
+  
+  <table id="tableId">
+      <tr>
+          <td>Team A*</td>
+          <td><input type="text" id="teamA" name="teamA" placeholder="Team A"></td>
+      </tr>
+      <tr>
+          <td>Team B*</td>
+          <td><input type="text" id="teamB" name="teamB" placeholder="Team B"></td>
+      </tr>
+      <tr>
+          <td>Date*</td>
+          <td><input type="text" id="date" name="date" placeholder="DD/MM/YYYY"></td>
+      </tr>
+       <tr>
+          <td>Time*</td>
+          <td><input type="text" id="time" name="time" placeholder="HH:MM:SS"></td>
+      </tr>
+      <tr>
+          <td>Team A Score*</td>
+          <td><input type="text" id="scoreA" name="scoreA" placeholder="Runs/Wkts"></td>
+      </tr>
+      <tr>
+          <td>Team B Score*</td>
+          <td><input type="text" name="scoreB" id="scoreB"  placeholder="Runs/Wkts"></td>
+      </tr>
+   </table>
+   <input type="button" id="save" onclick="validate();" value="Save"><br>
+   Winning Team : <div id="win"></div>
+  
+
+</body>
+</html>

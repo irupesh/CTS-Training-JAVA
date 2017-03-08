@@ -1,0 +1,1 @@
+import java.util.ArrayList; import java.util.Iterator; public class Main { public static void main(String a[]){ ArrayList arrl = new ArrayList(); arrl.add("First"); arrl.add("Second"); arrl.add("Third"); arrl.add("Random"); Iterator itr = arrl.iterator(); while(itr.hasNext()){ System.out.print(itr.next()+"\t"); } } }

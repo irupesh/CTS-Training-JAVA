@@ -1,0 +1,16 @@
+127.0.0.1 - - [26/Feb/2017:18:46:50 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:18:46:53 +0530] "GET /Servlet_-_update_coach_name/ HTTP/1.1" 404 1007
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:18:46:57 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:18:46:59 +0530] "GET /Servlet_-_update_coach_name/Index HTTP/1.1" 500 1445
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:18:59:47 +0530] "GET /Servlet_-_update_coach_name/ HTTP/1.1" 404 1007
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:18:59:53 +0530] "GET /Servlet_-_update_coach_name/Index HTTP/1.1" 500 1445
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:02:23 +0530] "GET /Servlet_-_update_coach_name/ HTTP/1.1" 404 1007
+127.0.0.1 - - [26/Feb/2017:19:02:55 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:02:57 +0530] "GET /Servlet_-_update_coach_name/ HTTP/1.1" 404 1007
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:03:06 +0530] "GET /Servlet_-_update_coach_name/Index HTTP/1.1" 200 1521
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:03:20 +0530] "GET /Servlet_-_update_coach_name/EditServlet?teamid=5 HTTP/1.1" 200 363
+127.0.0.1 - - [26/Feb/2017:19:17:08 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:17:10 +0530] "GET /Servlet_Display_Batsmans_details/ HTTP/1.1" 404 1017
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:17:36 +0530] "GET /Servlet_Display_Batsmans_details/DisplayServlet HTTP/1.1" 200 166
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:17:59 +0530] "GET /Servlet_Display_Batsmans_details/DisplayServlet HTTP/1.1" 200 166
+0:0:0:0:0:0:0:1 - - [26/Feb/2017:19:18:08 +0530] "GET /Servlet_Display_Batsmans_details/DisplayServlet HTTP/1.1" 200 1946

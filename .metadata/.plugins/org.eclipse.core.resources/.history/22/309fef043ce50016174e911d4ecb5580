@@ -1,0 +1,12 @@
+
+public class Main {
+
+	static void menu(){
+	   System.out.println("Hotel Tariff Calculator\n1. Deluxe Room\n2. Deluxe AC Room\n3. Suite AC Room\nSelect Room Type:");
+	}
+	public static void main(String[] args) {
+			
+
+	}
+
+}

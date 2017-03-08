@@ -1,0 +1,22 @@
+package team;
+
+
+
+
+public class CityBO {
+    public List<City> obtainAllCities() throws ClassNotFoundException, SQLException{
+       
+
+			//fill the code
+    }
+
+    public City getCityByName(String name) throws ClassNotFoundException, SQLException{        
+        
+
+		//fill the code
+    }
+
+    
+}
+
+

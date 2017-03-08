@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+    
+</head>
+<body>
+
+	<h2>IPL Ticket Booking Form</h2>
+
+   <table id="tableId">
+      <tr>
+          <td>Name</td>
+          <td><input type="text" id="name" placeholder="Name"></td>
+      </tr>
+      <tr>
+          <td>Email</td>
+          <td><input type="email" id="email" placeholder="abc12@xyz.com"></td>
+      </tr>
+      <tr>
+          <td>Mobile Number</td>
+          <td><input type="text" id="mobile" placeholder="9988755346"></td>
+      </tr>
+      <tr>
+          <td>Date</td>
+          <td><input type="text" id="date" placeholder="dd/mm/yyyy"></td>
+      </tr>
+       <tr>
+          <td>Venue</td>
+          <td><input type="text" id="venue" placeholder="Match venue"></td>
+      </tr>
+      <tr>
+          <td>No.of Tickets</td>
+          <td><input type="text" id="ticket" placeholder="Number Of Tickets"></td>
+      </tr>
+      <tr>
+          <td>Ticket Type</td>
+          <td><input type="radio" name="ticketType" id="ticketType" value="First Class">First Class
+          		<input type="radio" name="ticketType" id="ticketType" value="Second Class">Second Class
+           </td>
+      </tr>
+      <tr>
+          <td>Payment Type</td>
+          <td><input type="radio" name="paymentType" id="paymentType" value="Credit Card">Credit Card
+          		<input type="radio" name="paymentType" id="paymentType" value="Debit Card">Debit Card
+          		<input type="radio" name="paymentType" id="paymentType" value="Net Banking">Net Banking
+           </td>
+      </tr>
+   
+   </table>
+   <input type="button" id="submit" value="Submit"> 
+   <div id="display"></div>
+</body>
+</html>

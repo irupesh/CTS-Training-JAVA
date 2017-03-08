@@ -1,0 +1,10 @@
+$(document).ready(function() {
+	$("#details").on("click", function() {
+		$.ajax({
+		       type: 'get',
+		       url: 'mostsixes.xml',
+		       dataType: 'xml',
+		       success: populateTable
+		    });
+	});
+});

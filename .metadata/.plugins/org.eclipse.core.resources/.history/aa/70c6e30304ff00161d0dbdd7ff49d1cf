@@ -1,0 +1,38 @@
+<%@page import="team.TeamDAO"%>
+<%@page import="team.Team"%>
+<%@page import="team.CityDAO"%>
+<%@page import="team.City"%>
+<%@page import="java.util.List"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.*"%>
+<%@page import="java.io.InputStream"%>
+<%@page import="java.io.OutputStream"%>
+<% 
+List<Team> al=new ArrayList<Team>();
+TeamDAO td=new TeamDAO();
+al=td.obtainAllTeams();
+Iterator<Team> i=al.iterator();
+%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2>Team List</h2>
+<table id="teams" border='1'>
+<tr><td><b>Team</b></td><td><b>Coach</b></td><td></td></tr>
+<% while(i.hasNext())
+{
+	Team t=i.next();
+	 %>
+<tr><td><% out.println(t.getName());  %></td><td><%out.println(t.getCoach());  %></td><td><a href='Delete?teamid=<% out.println(t.getId()); %>'>Delete</a></td></tr>
+<% } %>
+</table>
+
+
+</body>
+</html>

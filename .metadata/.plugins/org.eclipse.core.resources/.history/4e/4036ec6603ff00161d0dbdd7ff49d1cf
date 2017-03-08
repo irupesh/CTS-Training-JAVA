@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JSP - Remove Team">
+        <property name="context-root" value="JSP_-_Remove_Team"/>
+        <property name="java-output-path" value="/JSP - Remove Team/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,25 @@
+package team;
+
+
+
+
+
+public class TeamBO {
+    public List<Team> obtainAllTeams() throws ClassNotFoundException, SQLException{
+
+		//fill the code
+       
+    }
+
+	public int createTeam(Team team) throws ClassNotFoundException, SQLException {
+		  
+		
+		//fill the code
+		
+	}
+
+	
+    
+}
+
+

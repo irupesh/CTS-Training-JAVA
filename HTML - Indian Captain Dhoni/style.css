@@ -1,0 +1,13 @@
+th {
+	font-size: 0.50;
+	font-style: italic;
+}
+
+#table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#table2 {
+	margin-left: 50px;
+}

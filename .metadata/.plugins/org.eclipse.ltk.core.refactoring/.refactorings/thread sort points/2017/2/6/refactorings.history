@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;SortScore&apos; to &apos;SortPoints&apos;&#x0D;&#x0A;- Original project: &apos;thread sort points&apos;&#x0D;&#x0A;- Original element: &apos;SortScore&apos;&#x0D;&#x0A;- Renamed element: &apos;SortPoints&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SortScore&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{SortScore.java[SortScore" matchStrategy="1" name="SortPoints" qualified="false" references="true" similarDeclarations="false" stamp="1486549997718" textual="false" version="1.0"/>
+</session>

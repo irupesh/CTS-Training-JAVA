@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 5 elements to &apos;JDBC - displaySkill/src&apos;&#x0D;&#x0A;- Original project: &apos;JDBC - displaySkill&apos;&#x0D;&#x0A;- Destination element: &apos;JDBC - displaySkill/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Eval.sql&#x0D;&#x0A;     mysql.properties&#x0D;&#x0A;     Main.java&#x0D;&#x0A;     SkillDAO.java&#x0D;&#x0A;     Skill.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="/src" element1="Eval.sql" element2="mysql.properties" element3="Main.java" element4="SkillDAO.java" element5="Skill.java" files="5" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1487133329459" units="0" version="1.0"/>
+</session>

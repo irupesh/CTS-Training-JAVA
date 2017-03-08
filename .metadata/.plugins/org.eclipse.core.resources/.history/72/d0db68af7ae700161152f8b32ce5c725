@@ -1,0 +1,7 @@
+
+
+@Retention( RetentionPolicyonPolicy.RUNTIME )
+@Target( ElementTypeype.METHOD )
+public @interface Arithmetic {
+	public String name() default "@Arithmetic";
+}

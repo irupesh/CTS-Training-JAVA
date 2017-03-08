@@ -1,0 +1,9 @@
+$(document).ready(function() {
+	$("#getdetails").on("click", function() {
+		$.getJSON('teamdetail.json', function(data) {
+			var jsondata = data["teamList"];
+			alert("This is the Data" + jsondata.length() );
+			
+		});
+	});
+});

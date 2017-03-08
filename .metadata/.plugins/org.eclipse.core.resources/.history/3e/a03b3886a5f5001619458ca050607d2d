@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+   <title>Insert title here</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1 align="center">Indian Premier League</h1>
+  <div id="content">
+     <h4 class="heading" align="center">Team Details</h4>
+     <h4 class="heading" align="center">Mumbai Indians vs Rising Pune Supergiants</h4><br>
+     
+     <div id="team">
+     <div id="team1">
+       <h4 class="heading" align="left">Team 1:Mumbai Indians</h4>
+       <ul>
+          <li>Lendl Simmons</li><li>Rohit Sharma</li><li>Hardik Pandya</li><li>Jos Buttler</li>
+          <li>Ambati Rayudu</li><li>Kieron Pollard</li><li>shreyas Godal</li><li>Harbhajan Singh</li>
+          <li>Vinay Kumar</li><li>Mitchell mcClenaghan</li><li>Bumrah</li>
+          
+       </ul>
+       </div>
+       
+       <div id="team2">
+       <h4 class="heading" align="left">Team 2:Rising Pune Supergiants</h4>
+       <ul>
+          <li>Ajinkya Rahane</li><li>Fal du Plessis</li><li>Kevin Pietersen</li><li>S smith</li><li>Mitchell marsh</li>
+          <li>Dhoni</li><li>R Bhatia</li><li>Ashwin</li><li>M Ashwin</li><li>Ishant</li>
+          <li>RP Singh</li>
+       </ul>
+       </div>
+     </div>
+  </div>
+     <hr>
+       <h4 class="heading" align="center">Winning Details</h4>
+       <div id="win">
+       <p><b>Rising Pune Supergiants</b> won the match by <b>7 wickets</b></p>
+       </div>
+     <hr>
+     
+      <h4 class="heading" align="center">Score Details</h4>
+      <div id="score">
+      
+      <div id="team1">
+       <h4 class="heading" align="left">Team 1:Mumbai Indians</h4>
+       <p><b>Runs</b> - 121<br>
+      <b>Overs</b> - 20<br>
+       <b>Wickets</b> - 8</p>
+       </div>
+       
+       <div id="team2">
+       <h4 class="heading" align="left">Team 2:Rising Pune Supergiants</h4>
+       <p><b>Runs</b> - 126<br>
+       <b>Overs</b> - 14.4<br>
+       <b>Wickets</b> - 1<br>
+       </div>
+      
+      
+      </div>
+
+ 
+
+</body>
+</html>

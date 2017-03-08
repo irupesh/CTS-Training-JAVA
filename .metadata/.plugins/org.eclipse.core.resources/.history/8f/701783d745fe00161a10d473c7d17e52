@@ -1,0 +1,48 @@
+package team;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class TeamDAO{
+
+    public List<Team> obtainAllTeams() throws ClassNotFoundException, SQLException {
+        
+
+		//fill the code
+    	Connection con = DBConnection.getConnection();
+    	List<Team> teams = new ArrayList<Team>();
+        
+        String selectSQL = "SELECT id,name,coach,home_city_id FROM team order by name";
+        PreparedStatement preparedStatement = con.prepareStatement(selectSQL);
+        ResultSet rs = preparedStatement.executeQuery();
+        while (rs.next()) {
+        	City city = new CityDAO().getCityByID(rs.getInt("id"));
+      	 Team team = new Team(rs.getString("name"), rs.getString("coach"),city);
+      	 teams.add(team);
+        }
+        return teams;
+    }
+
+
+	public int createTeam(Team team) throws SQLException, ClassNotFoundException {
+		
+		//fill the code
+		Connection con = DBConnection.getConnection();
+		String selectSQL = "insert into team values(501,?,?,?,2)";
+	      PreparedStatement preparedStatement = con.prepareStatement(selectSQL);
+	      preparedStatement.setString(1,team.getName());
+	      preparedStatement.setString(2,team.getCoach());
+	      preparedStatement.setInt(3,team.getCity().getId());
+	       return preparedStatement.executeUpdate());
+	}
+		
+}
+    
+    
+
+
+

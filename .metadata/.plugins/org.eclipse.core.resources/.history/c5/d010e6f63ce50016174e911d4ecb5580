@@ -1,0 +1,26 @@
+
+public class DeluxeRoom extends HotelRoom {
+	int ratePerSqFeet;
+	
+	public void setRatePerSqFeet(int ratePerSqFeet) {
+		this.ratePerSqFeet = ratePerSqFeet;
+	}
+	public DeluxeRoom(String hotelName, int numberOfSqFeet, boolean hasTV, boolean hasWifi) {
+		super(hotelName, numberOfSqFeet, hasTV, hasWifi);
+		this.ratePerSqFeet = 10;
+	}
+	public DeluxeRoom(String hotelName, int numberOfSqFeet, boolean hasTV, boolean hasWifi, int ratePerSqFeet) {
+		super(hotelName, numberOfSqFeet, hasTV, hasWifi);
+		this.ratePerSqFeet = ratePerSqFeet;
+	}
+	
+	int getRatePerSqFeet(){
+		if(hasWifi)
+			return ratePerSqFeet + 2;
+		return ratePerSqFeet;
+	}
+	int calculateTariff(){
+		return ratePerSqFeet*getRatePerSqFeet();
+	}
+	
+}

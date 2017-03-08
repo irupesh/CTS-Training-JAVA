@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="head">
+		<h2>
+			<center>Player Details</center>
+		</h2>
+	</div>
+	<div id="form">
+		<table style="margin: 0 auto;">
+			<tr>
+				<td>
+					<p class="heading">Name*</p>
+				</td>
+				<td><input type="text" id="name" placeholder="Enter your name"
+					autofocus></td>
+
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">DOB*</p>
+				</td>
+				<td><input type="text" id="dob" placeholder="DD/MM/YYYY"
+					pattern="\d{1,2}/\d{1,2}/\d{4}"></td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Age*</p>
+				</td>
+				<td><input type="text" id="age" placeholder="Enter your age">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Email Id*</p>
+				</td>
+				<td><input type="text" id="email" placeholder="abc12@xyz.com"
+					pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"></td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Country*</p>
+				</td>
+				<td><select id="country">
+						<option value="India">India</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Skill*</p>
+				</td>
+				<td><input type="checkbox" name="skill" id="skill"
+					value="Batting">Batting <input type="checkbox" name="skill"
+					id="skill" value="Bowling">Bowling</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Bat Style*</p>
+				</td>
+
+				<td><input type="radio" name="bat" id="bat"
+					value="Right Handed"> Right Handed <input type="radio"
+					name="skill" id="bat" value="Left Handed"> Left Handed</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Bowl Style*</p>
+				</td>
+
+				<td><input type="radio" name="bowl" id="bowl"
+					value="Right Handed"> Right Handed <input type="radio"
+					name="skill" id="bowl" value="Left Handed"> Left Handed</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Matches*</p>
+				</td>
+				<td><input type="text" id="match" placeholder="Matches Played">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Runs*</p>
+				</td>
+				<td><input type="text" id="run" placeholder="Total runs scored">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Wickets*</p>
+				</td>
+				<td><input type="text" id="wicket" placeholder="Wickets">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p class="heading">Achievements*</p>
+				</td>
+				<td><textarea id="achieve" placeholder="Total runs scored"></textarea>
+				</td>
+			</tr>
+
+		</table>
+
+	</div>
+	<div id="footer">
+		<div align="center" >
+			<input type="submit" id="submitid" value="Submit"> 
+			<input type="reset" value="Reset" id="reset">
+		</div>
+	</div>
+</body>
+</html>

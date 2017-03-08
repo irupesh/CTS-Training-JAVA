@@ -1,0 +1,27 @@
+
+public class Player implements IKabbadiPlayerStatistics {
+	
+	private String name;
+	private String teamName;
+	private int noOfMatches;
+	private long totalRaidPoints;
+	private long totalDefencePoints;
+	
+
+	public Player(String name, String teamName, int noOfMatches, long totalRaidPoints, long totalDefencePoints) {
+		super();
+		this.name = name;
+		this.teamName = teamName;
+		this.noOfMatches = noOfMatches;
+		this.totalRaidPoints = totalRaidPoints;
+		this.totalDefencePoints = totalDefencePoints;
+	}
+
+	@Override
+	public void displayKabbadiPlayerDetails() {
+		
+		
+	}
+	
+
+}

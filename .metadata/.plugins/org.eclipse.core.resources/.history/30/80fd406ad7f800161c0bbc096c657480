@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+     Click the button to get Team Details<br>
+     <input type="button" id="getdetails" value="Get Team Details"> 
+
+</body>
+</html>

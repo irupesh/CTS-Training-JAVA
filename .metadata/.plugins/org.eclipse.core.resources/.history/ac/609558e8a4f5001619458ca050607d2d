@@ -1,0 +1,43 @@
+
+.heading{
+	font-style: italic;
+	color: #C71585;
+}
+
+#content{
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-style: solid;
+	border-color: black;
+}
+
+hr{
+	color: #FFFF00;
+}
+
+body{
+	background-color: #C71585;
+}
+
+div{
+	background-color: white;
+}
+
+#win{
+	
+}
+
+#team2{
+	margin-left: 500px;
+}
+
+#team1, #team2
+{
+    display: inline-block;
+}
+
+h1{
+	
+}

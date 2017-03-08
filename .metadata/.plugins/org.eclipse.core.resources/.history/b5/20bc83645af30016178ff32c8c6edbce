@@ -1,0 +1,28 @@
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ResourceBundle;
+import java.util.TreeMap;
+
+public class SkillDAO {
+  public TreeMap<Skill,Integer> skillCount(){
+      TreeMap<Skill,Integer> skillCountMap = new TreeMap<Skill,Integer>();
+      try{
+          ResourceBundle rb= ResourceBundle.getBundle("mysql");
+          String url=rb.getString("db.url");
+          String user=rb.getString("db.username");
+          String pass=rb.getString("db.password");
+          Class.forName("com.mysql.jdbc.Driver");
+          Connection con = DriverManager.getConnection(url,user,pass);
+         
+              
+          //fill your code
+
+
+  }
+}
+

@@ -1,0 +1,106 @@
+  <html>
+     <head>
+         <style>
+         .heading{font-style:italic;color:#708090;}
+             body{background-color:white;}
+             #head{position:relative;background-color:00FFFF;color:white;padding:10px;}
+             #form{position:relative;padding:10px; background-color:#87CEEB;top:10px;}
+         </style>
+         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+     </head>
+     <body>
+        
+             
+         <div id="form">
+         <h2><center>Player Details</center></h2>
+         <form id="f">
+         <table>
+             <tr><td>
+                 <p class="heading">First Name*</p>
+             </td>
+             <td>
+                 <input type="text" id="firstname" placeholder="Enter your name" name="firstname" >
+             </td>
+                 
+             </tr>
+                 <tr><td>
+                 <p class="heading">Last Name*</p>
+             </td>
+             <td>
+                 <input type="text" id="lastname" placeholder="Enter your name" name="lastname" >
+             </td>
+                 
+             </tr>
+               <tr>
+                   <td>
+                      <p class="heading">DOB*</p> 
+                   </td>
+                   <td>
+                        <input type="text" id="dob" placeholder="DD/MM/YYYY" name="dob" >
+                   </td>
+               </tr>
+               
+                   <tr>
+                       <td> <p class="heading">Email Id*</p></td>
+                       <td> <input type="text" id="email" placeholder="abc12@xyz.com" name="email" ></td>
+                   </tr>
+                   
+            
+                 <tr>
+                      <td>
+                        <p class="heading">Batting Style*</p>
+                   </td>
+                  
+                   <td>
+                       <input type="radio" name="bat" id="RightHanded"value="Right Handed" > Right Handed
+ 							 <input type="radio" name="bat" id="Left Handed" value="Left Handed"> Left Handed
+                   </td>
+                 </tr>
+                   <tr>
+                        <td>
+                        <p class="heading">Bowling Style*</p>
+                   </td>
+                  
+                   <td>
+                       <input type="radio" id="Right_Handed" name="bowl" value="Right Handed" > Right Handed
+                       <input type="radio" name="bowl" id="Left_Handed" value="Left Handed" > Left Handed
+                   </td>
+                   </tr>
+                     <tr>
+                         <td>
+                              <p class="heading">Matches*</p>
+                         </td>
+                         <td>
+                             <input type="text" id="match" name="matches" placeholder="Matches Played" >
+                         </td>
+                     </tr>
+                       <tr>
+                            <td>
+                              <p class="heading">Runs*</p>
+                         </td>
+                         <td>
+                             <input type="text" id="run" name="runs" placeholder="Total runs scored" >
+                         </td>
+                       </tr>
+                         <tr>
+                             <td>
+                              <p class="heading">Wickets*</p>
+                         </td>
+                         <td>
+                             <input type="text" id="wicket" name="wickets" placeholder="Wickets" >
+                         </td>
+                         </tr>
+                         
+                           
+         </table>
+            
+    
+             <input type="button" id="json" value="Form Jason"><br>
+             <textarea id="data" cols="10" rows="10" ></textarea>
+              </form> 
+            
+
+         </div>
+     </body>
+ </html>

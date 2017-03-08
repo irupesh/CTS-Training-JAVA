@@ -1,0 +1,4 @@
+
+public @interface Scientific {
+	public String name() default "@Scientific";
+}

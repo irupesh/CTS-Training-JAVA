@@ -1,0 +1,19 @@
+import java.io.BufferedReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class FileUtility {
+	List<Player> readData(BufferedReader br) {
+        List<Player> players = new ArrayList<Player>();
+		
+		String line = br.readLine();
+	    while (line != null) {
+	    	String[] playerDetail = line.trim().split(",");
+	    	Player obj = new Player(Integer.parseInt(playerDetail[0]), playerDetail[1], playerDetail[2], playerDetail[3],Integer.parseInt(playerDetail[4]));
+	    	players.add(obj);
+	    	line = br.readLine();
+	    }
+	    br.close();
+	    return players;
+	}
+}

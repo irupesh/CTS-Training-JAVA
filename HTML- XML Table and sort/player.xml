@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<playerData>
+    <player id="p101">
+       <pid>p101</pid>
+        <name>MS Dhoni</name>
+        <role>WK-Batsman</role>
+        <battingstyle>Right Handed</battingstyle>
+        <bowlingstyle>Right-arm medium</bowlingstyle> 
+        <score>350</score>         
+    </player>
+   <player id="p102">
+        <pid>p102</pid>
+        <name>Virat Kohli</name>
+        <role>Batsman</role>
+        <battingstyle>Right Handed</battingstyle>
+        <bowlingstyle>Right-arm medium</bowlingstyle>    
+       <score>325</score>       
+    </player>
+   <player id="p103">
+        <pid>p103</pid>
+        <name>Sachin Tendulkar</name>
+        <role>Batsman</role>
+        <battingstyle>Right Handed</battingstyle>
+        <bowlingstyle>Right-arm legbreak</bowlingstyle>     
+         <score>420</score>      
+    </player>
+    <player id="p104">
+        <pid>p104</pid>
+        <name>Kedar Jadhav</name>
+        <role>Batsman</role>
+        <battingstyle>Right Handed</battingstyle>
+        <bowlingstyle>Right-arm offbreak</bowlingstyle>   
+         <score>240</score>      
+    </player>
+   <player id="p105">
+        <pid>p105</pid>
+        <name>Ravichandran Ashwin</name>
+        <role>Bowler</role>
+        <battingstyle>Right Handed</battingstyle>
+        <bowlingstyle>Right-arm offbreak</bowlingstyle>       
+         <score>130</score> 
+    </player>
+</playerData>

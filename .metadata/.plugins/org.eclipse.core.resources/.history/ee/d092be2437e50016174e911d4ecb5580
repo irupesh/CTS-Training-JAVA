@@ -1,0 +1,11 @@
+
+public class DeluxeRoom extends HotelRoom {
+	int ratePerSqFeet;
+	public DeluxeRoom(String hotelName, int numberOfSqFeet, boolean hasTV, boolean hasWifi) {
+		super(hotelName, numberOfSqFeet, hasTV, hasWifi);
+		this.ratePerSqFeet = 10;
+	}
+
+	
+	
+}

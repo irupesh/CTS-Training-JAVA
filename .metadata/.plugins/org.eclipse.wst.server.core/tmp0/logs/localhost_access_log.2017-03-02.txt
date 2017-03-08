@@ -1,0 +1,17 @@
+127.0.0.1 - - [02/Mar/2017:10:39:30 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:39:38 +0530] "GET /JSP_-_Remove_Team/ HTTP/1.1" 500 2973
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:40:57 +0530] "GET /JSP_-_Remove_Team/ HTTP/1.1" 500 5332
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:41:58 +0530] "GET /JSP_-_Remove_Team/ HTTP/1.1" 500 5332
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:42:04 +0530] "GET /JSP_-_Remove_Team/ HTTP/1.1" 200 1568
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:42:14 +0530] "GET /JSP_-_Remove_Team/Delete?teamid=9 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:42:15 +0530] "GET /JSP_-_Remove_Team/index.jsp HTTP/1.1" 200 1478
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:42:22 +0530] "GET /JSP_-_Remove_Team/Delete?teamid=11 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:42:22 +0530] "GET /JSP_-_Remove_Team/index.jsp HTTP/1.1" 200 1384
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:52:29 +0530] "GET /JSP_-_Remove_Team/ HTTP/1.1" 500 2973
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:52:44 +0530] "GET /JSP_-_Remove_Team/index.jsp HTTP/1.1" 500 2973
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:53:25 +0530] "GET /JSP_-_Remove_Team/index.jsp HTTP/1.1" 200 1487
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:10:53:32 +0530] "GET /JSP_-_Remove_Team/index.jsp HTTP/1.1" 200 1487
+127.0.0.1 - - [02/Mar/2017:16:37:16 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:16:37:19 +0530] "GET /Servlet_code_challenge/ HTTP/1.1" 404 997
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:16:38:09 +0530] "GET /Servlet_code_challenge/ HTTP/1.1" 200 7936
+0:0:0:0:0:0:0:1 - - [02/Mar/2017:16:38:40 +0530] "GET /Servlet_code_challenge/ HTTP/1.1" 200 7403
